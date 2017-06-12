@@ -1,3 +1,87 @@
+body {
+  background-image: url(../img/whitenotebook.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+
+}
+
+#maincontainer {
+  margin-top:125px;
+  display: block;
+  width: 65em;
+  margin-left: 20em;
+}
+
+#banner {
+  text-align: center;
+}
+
+#grocery-list {
+  margin: 35px 0px 35px 0;
+}
+
+#primary-list {
+  margin-bottom: 100px;
+}
+
+#printed-list {
+  display: grid;
+}
+
+
+#banner-h2 {
+  font-size: 3.5em;
+  text-align: center;
+  color: #000000;
+}
+
+#banner-h3 {
+  font-size: 1.4em;
+  color: #000000;
+  text-align: center;
+}
+
+.item {
+  width: 90%;
+  text-align: left;
+  font-size: 2.2em;
+  color: #000000;
+  list-style-type: none;
+}
+
+.remove-btn {
+  margin-left: 20px;
+  float: right;
+}
+
+.dash-btn {
+  margin-left: 20px;
+  float: right;
+}
+
+.show-btn {
+  margin-left: 20px;
+  float: right;
+}
+
+#new-item {
+  float: left;
+  width: 80%;
+  margin-top: 12px;
+  margin-left: 75px;
+}
+
+#submit {
+  margin-left: 20px;
+  height: 55px;
+  display: inline-block;
+}
+
+#plus-submit {
+  font-size: auto;
+}
+
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
