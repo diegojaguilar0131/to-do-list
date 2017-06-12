@@ -5,6 +5,10 @@ body {
 
 }
 
+#output {
+  padding-top: 5px;
+}
+
 #maincontainer {
   margin-top:125px;
   display: block;
@@ -42,11 +46,12 @@ body {
 }
 
 .item {
-  width: 90%;
+  width: auto;
   text-align: left;
   font-size: 2.2em;
   color: #000000;
   list-style-type: none;
+  margin-top: 10px;
 }
 
 .remove-btn {
@@ -56,7 +61,15 @@ body {
 
 .dash-btn {
   margin-left: 20px;
+  margin-bottom: 35px;
   float: right;
+  font-size: 0.8em;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+
 }
 
 .show-btn {
@@ -67,8 +80,18 @@ body {
 #new-item {
   float: left;
   width: 80%;
-  margin-top: 12px;
   margin-left: 75px;
+}
+
+#new-detail {
+  float: left;
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 75px;
+}
+
+.item-details {
+  display: none;
 }
 
 #submit {
